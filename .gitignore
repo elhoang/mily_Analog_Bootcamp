@@ -9,10 +9,21 @@ output/
 *.ac
 *.tran
 
-# editor / OS junk
+# IDE files
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
+Thumbs.db
 *.swp
 
 # python / venv
 .venv/
+
+# tools / temp
+.tools/
+.tmp/
+
+# external libraries (PDK / bootcamp)
 library/
