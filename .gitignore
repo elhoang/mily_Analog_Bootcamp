@@ -1,0 +1,18 @@
+# build artifacts
+build/
+output/
+
+# ngspice / simulation
+*.raw
+*.log
+*.op
+*.ac
+*.tran
+
+# editor / OS junk
+.DS_Store
+*.swp
+
+# python / venv
+.venv/
+library/

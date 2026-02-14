@@ -1,0 +1,14 @@
+magic
+tech sky130A
+timestamp 1770998816
+<< checkpaint >>
+rect -630 -630 20630 1630
+<< metal4 >>
+rect 0 27000 2000 30000
+rect 0 26000 20000 27000
+rect 0 1000 2000 26000
+rect 0 0 20000 1000
+<< labels >>
+rlabel metal4 0 26000 20000 27000 1 VDD
+rlabel metal4 0 0 20000 1000 1 VSS
+<< end >>
