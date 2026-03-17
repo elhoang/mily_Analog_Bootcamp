@@ -23,3 +23,23 @@ cd docs/
 bun install
 bun run dev
 ```
+## Single-Stage Op-Amp Performance Summary
+
+DC Gain:              20 dB   (Target: ≥20 dB) 
+Input Offset:         TBD mV  (Target: ≤5 mV) 
+CMRR:                 27 dB   (Target: ≥40 dB) 
+
+Input Impedance:      ≈1 MΩ   (Target: ≥1 MΩ) 
+Output Impedance:     ≈9.3 kΩ (Target: ≤1 kΩ) 
+
+Power Consumption:    ≈1.48 mW (Target: ≤5 mW) 
+
+3dB Bandwidth:        ≈200 MHz 
+GBW Product:          ≈2000 MHz 
+
+PASS/FAIL:            PARTIAL PASS
+
+### Notes
+- The design meets gain, bandwidth, input impedance, and power consumption targets.
+- CMRR and output impedance do not currently meet specifications.
+- This is expected for a single-stage op-amp.
