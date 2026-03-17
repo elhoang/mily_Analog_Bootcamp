@@ -49,4 +49,4 @@ C {devices/lab_wire.sym} -230 50 0 0 {name=p2 sig_type=std_logic lab=VIN_P}
 C {devices/lab_wire.sym} -170 70 0 0 {name=p3 sig_type=std_logic lab=VIN_N}
 C {devices/lab_wire.sym} 180 -20 0 0 {name=p4 sig_type=std_logic lab=VOUT}
 C {bootcamp_opamp.sym} 0 0 0 0 {name=x1
-schematic=/workspace/analog/schematics/bootcamp_opamp.sch}
+schematic=/workspace/analog/schematics/bootcamp_opamp.sch}
