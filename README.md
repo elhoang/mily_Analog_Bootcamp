@@ -26,7 +26,7 @@ bun run dev
 ## Single-Stage Op-Amp Performance Summary
 
 DC Gain:              20 dB   (Target: ≥20 dB) 
-Input Offset:         TBD mV  (Target: ≤5 mV) 
+Input Offset:         ≈7 mV  (Target: ≤5 mV) 
 CMRR:                 27 dB   (Target: ≥40 dB) 
 
 Input Impedance:      ≈3.7 TΩ (low-frequency) (Target: ≥1 MΩ)
@@ -42,5 +42,5 @@ PASS/FAIL:            PARTIAL PASS
 ### Notes
 - Input and output impedance were re-measured using the cleaner Vx/Ix small-signal method.
 - The design meets gain, bandwidth, input impedance, and power consumption targets.
-- CMRR and output impedance do not currently meet specifications.
+- CMRR, output impedance, and input offset do not currently meet specifications.
 - This is expected for a single-stage op-amp.
