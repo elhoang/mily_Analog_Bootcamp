@@ -28,8 +28,8 @@ C {devices/lab_wire.sym} 30 -10 2 0 {name=p4 sig_type=std_logic lab=VIN_P}
 C {devices/code_shown.sym} 190 160 0 0 {name=s1 only_toplevel=false value=".save all
 .control
 ac dec 100 1 1G
-plot mag(v(vout))
+plot mag(v(vout)/i(vtest))
 .endc"}
 C {sky130_fd_pr/corner.sym} 280 20 0 0 {name=CORNER only_toplevel=false corner=tt}
-C {devices/isource.sym} 540 -30 0 0 {name=I_test value="dc 0 ac 1"}
 C {devices/gnd.sym} 540 0 0 0 {name=l4 lab=GND}
+C {devices/vsource.sym} 540 -30 0 0 {name=VTEST value="dc 0.766 ac 1e-3" savecurrent=false}
